@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blog_recent_articles",
+  "info": {
+    "displayName": "recent articles",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articleCount": {
+      "type": "integer",
+      "default": 3
+    },
+    "articleCategory": {
+      "type": "string",
+      "required": false
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Read More"
+    }
+  }
+}

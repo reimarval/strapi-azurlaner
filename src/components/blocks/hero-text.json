@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_hero_texts",
+  "info": {
+    "displayName": "heroText",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "firstLine": {
+      "type": "string"
+    },
+    "bigLine": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

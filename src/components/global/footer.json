@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "siteLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "siteDesc": {
+      "type": "string"
+    },
+    "footerNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

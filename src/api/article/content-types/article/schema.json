@@ -34,7 +34,7 @@
       "type": "richtext",
       "required": true
     },
-    "publish_at": {
+    "publishAt": {
       "type": "datetime"
     },
     "category": {

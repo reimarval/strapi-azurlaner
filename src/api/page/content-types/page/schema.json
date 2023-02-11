@@ -38,6 +38,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "bestShips": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hero-text"
+      ]
     }
   }
 }

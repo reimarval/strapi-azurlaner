@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "tiers",
+  "info": {
+    "singularName": "tier",
+    "pluralName": "tiers",
+    "displayName": "Tier",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tiers": {
+      "type": "json"
+    }
+  }
+}

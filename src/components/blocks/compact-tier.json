@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_compact_tiers",
+  "info": {
+    "displayName": "compactTier",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tierData": {
+      "type": "json"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "See Tier List"
+    }
+  }
+}

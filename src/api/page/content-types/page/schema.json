@@ -39,10 +39,11 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "bestShips": {
+    "tierCompact": {
       "type": "dynamiczone",
       "components": [
-        "blocks.hero-text"
+        "blocks.regular-title",
+        "blocks.compact-tier"
       ]
     }
   }

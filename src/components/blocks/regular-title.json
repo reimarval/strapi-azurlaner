@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_regular_titles",
+  "info": {
+    "displayName": "regularTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

@@ -6,12 +6,19 @@
   },
   "options": {},
   "attributes": {
-    "tierData": {
-      "type": "json"
-    },
     "buttonText": {
       "type": "string",
       "default": "See Tier List"
+    },
+    "groupsNumber": {
+      "type": "integer",
+      "default": 4,
+      "required": true
+    },
+    "shipsNumber": {
+      "type": "integer",
+      "default": 8,
+      "required": true
     }
   }
 }

@@ -10,16 +10,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/strapi": "4.7.0",
-    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/plugin-color-picker": "^4.9.0",
     "@strapi/plugin-graphql": "4.7.0",
     "@strapi/plugin-i18n": "4.7.0",
-    "@strapi/provider-upload-cloudinary": "^4.7.0",
     "@strapi/plugin-seo": "^1.7.5",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/provider-upload-cloudinary": "^4.7.0",
+    "@strapi/strapi": "4.7.0",
+    "better-sqlite3": "7.4.6",
     "fs": "^0.0.1-security",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "better-sqlite3": "7.4.6",
     "uuidv4": "^6.2.12"
   },
   "author": {

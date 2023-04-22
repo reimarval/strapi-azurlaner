@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "tier_lists",
+  "info": {
+    "singularName": "tier-list",
+    "pluralName": "tier-lists",
+    "displayName": "Tier List"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Azur Lane Tier List"
+    },
+    "Introduction": {
+      "type": "richtext"
+    }
+  }
+}

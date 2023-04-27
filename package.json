@@ -4,19 +4,19 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-color-picker": "^4.9.0",
-    "@strapi/plugin-graphql": "4.7.0",
-    "@strapi/plugin-i18n": "4.7.0",
-    "@strapi/plugin-seo": "^1.7.5",
-    "@strapi/plugin-users-permissions": "4.7.0",
-    "@strapi/provider-upload-cloudinary": "^4.7.0",
-    "@strapi/strapi": "4.7.0",
+    "@strapi/plugin-graphql": "4.10.1",
+    "@strapi/plugin-i18n": "4.10.1",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.10.1",
+    "@strapi/provider-upload-cloudinary": "^4.10.1",
+    "@strapi/strapi": "4.10.1",
     "better-sqlite3": "7.4.6",
     "fs": "^0.0.1-security",
     "pg": "^8.7.3",
@@ -30,7 +30,7 @@
     "uuid": "61e8a3da-dbc1-4656-ba9a-d9c78e99ef5c"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=12.x.x <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

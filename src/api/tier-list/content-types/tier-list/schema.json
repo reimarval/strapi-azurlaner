@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tier-list",
     "pluralName": "tier-lists",
-    "displayName": "Tier List"
+    "displayName": "Tier List",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,7 +18,41 @@
       "default": "Azur Lane Tier List"
     },
     "Introduction": {
-      "type": "richtext"
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "SSDescription": {
+      "type": "text"
+    },
+    "SDescription": {
+      "type": "text"
+    },
+    "ADescription": {
+      "type": "text"
+    },
+    "BDescription": {
+      "type": "text"
+    },
+    "CDescription": {
+      "type": "text"
+    },
+    "DDescription": {
+      "type": "text"
+    },
+    "EDescription": {
+      "type": "text"
+    },
+    "FDescription": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

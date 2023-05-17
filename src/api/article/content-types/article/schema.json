@@ -30,10 +30,6 @@
         "videos"
       ]
     },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
     "publishAt": {
       "type": "datetime"
     },
@@ -57,6 +53,14 @@
       "type": "customField",
       "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
       "customField": "plugin::color-picker.color"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
